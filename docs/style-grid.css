@@ -13,14 +13,4 @@
 
 /* CSS Grid Playground */
 
-.the-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-}
-
-.yellow {
-  /* grid-column: 3/3;
-  grid-row: 1/2; */
-}
+@import url('style.css');

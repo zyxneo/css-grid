@@ -1,0 +1,40 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "css grid experiments",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config ./webpack.config.js --content-base docs/",
+    "build": "webpack --config ./webpack.config.js --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyxneo/css-grid.git"
+  },
+  "keywords": [
+    "css",
+    "grid"
+  ],
+  "author": "zyxneo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zyxneo/css-grid/issues"
+  },
+  "homepage": "https://github.com/zyxneo/css-grid#readme",
+  "dependencies": {
+    "autoprefixer": "7.2.3",
+    "css-loader": "0.28.7",
+    "extract-text-webpack-plugin": "3.0.2",
+    "node-sass": "4.7.2",
+    "postcss-import": "11.0.0",
+    "postcss-loader": "2.0.9",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.19.1",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.9.7"
+  }
+}
